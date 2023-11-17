@@ -20,12 +20,6 @@ import { PagesModule } from './pages/pages.module';
     PagesModule,
     HttpClientModule
   ],
-  exports: [
-    BrowserModule,
-    AppRoutingModule,
-    PagesModule,
-    HttpClientModule
-  ],
   providers: [],
   bootstrap: [AppComponent]
 })
