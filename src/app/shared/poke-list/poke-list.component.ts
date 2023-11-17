@@ -11,7 +11,7 @@ export class PokeListComponent implements OnInit{
   private setAllPokemons: any;
   public getAllPokemons: any;
 
-  public apiError: boolean = false;
+  public apiError: boolean = true;
 
   constructor(
     private pokeApiService: PokeApiService
