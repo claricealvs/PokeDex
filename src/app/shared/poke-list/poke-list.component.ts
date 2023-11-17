@@ -22,7 +22,7 @@ export class PokeListComponent implements OnInit{
       res => {
         this.setAllPokemons = res.results;
         this.getAllPokemons = this.setAllPokemons;
-        this.apiError = true;
+        this.apiError = false;
       },
       error => {
         this.apiError = true;
