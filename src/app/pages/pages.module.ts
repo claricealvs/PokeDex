@@ -20,6 +20,12 @@ import { DetailsComponent } from './details/details.component';
     CommonModule,
     RoutingModule,
     SharedModule
+  ],
+  exports: [
+    RoutingModule,
+    SharedModule,
+    HomeComponent,
+    DetailsComponent
   ]
 })
 export class PagesModule { }
